@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+;       box-sizing: border-box;
+
+}
+
+body{
+    background-color: #E3E6E6;
+}
+
+
+
+/* 
+=================================
+Header
+=================================
+ */
+header{
+    background-color: #131921;
+    width: 100%;
+    height: 60px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-logo >img{
+    padding: 1px 0px 0px 1px;
+    width: 99px;
+    height: 51px;
+   
+}
+
+.nav-add{
+    display: flex;
+    color: #E3E6E6;
+    padding: 10px 6px 10px 6px;
+}
+.deli{
+    color: #C6C4CC;
+    font-size: 12px;
+    font-weight: 800;
+    padding-top: 10px;
+padding-right: 10px;
+   
+}
+.pak{
+    font-size: 15px;
+    font-weight: 900;
+    padding-bottom: 10px;
+padding-right: 10px;
+}
+.add-logo{
+    margin: 5px 5px 0px 0px;
+padding: 8px 0px;
+   padding-left: 5px; 
+    
+}
+
+.nav-search{
+    display: flex;
+    border: none;
+}
+
+
+.all{
+    background-color: #E6E6E6;
+    color:#666666;
+    height: 40px;
+    width: 51px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.input {
+    background-color: #FFFFFF;
+    height:40px;
+    width: 350px;
+    border: none;
+   
+}
+.icon{
+    background-color:#FEBD69;
+    color:#666666;
+    height: 40px;
+    width: 51px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.eng{
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 15px 15px;
+}
+
+
+
+.hello{
+    font-size: 12px;
+    color:#FFFFFF ;
+    padding: 10px 5px 0px 5px;
+}
+
+.account{
+    font-size: 14px;
+    color:#FFFFFF ;
+    font-weight: 700;
+    padding: 0px 5px 10px 5px;
+  
+}
+ 
+.retrun{
+    font-size: 12px;
+    color:#FFFFFF ;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.order{
+    font-size: 14px;
+    color:#FFFFFF ;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.border{
+    border: 2px solid transparent;
+    padding: 0px
+
+}
+.border:hover{
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+/* 
+=============================================
+Navbar Complete
+============================================= 
+*/
+
+
+.mini-navbar{
+    background-color: #232F3E;
+    color: #FFFFFF;
+    height: 38px;
+    font-size: 14px;
+    display: flex   ;
+}
+.All{
+    padding: 2px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.mini{
+    padding: 10px 15px;
+}
+
+.hero-section >img{
+    width: 100%;
+    height: 600px;
+}
+
+.card-section{
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-between;
+    
+
+}
+
+.cards{
+    width:310px;
+    height: 390px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 15px 10px;
+
+}
+.card-text{
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+}
+.cards >img{
+    width: 270px;
+   height:  270px;
+   margin: 40px 20px 0px 20px;
+}
+.cards>a{
+    font-size: 12px;
+    color: #2C8A9A;
+    text-decoration: none;
+    padding-left: 25px;
+}
+
+.gig{
+    position: absolute;
+    top: 380px;
+}
+.horizontal{
+    position: relative;
+    top: 1500PX;
+
+    display: flex;
+   
+
+
+}
+.img-1{
+   margin:10px;
+   border: 5px,solid,black;
+   border-radius: 3px;
+}
+.background{
+    background-color: rgb(206, 208, 212);
+}
+
+
+
+
+
+
+
+
+
+
+
+
